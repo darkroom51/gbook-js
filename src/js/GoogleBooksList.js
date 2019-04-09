@@ -62,7 +62,6 @@ class GoogleBooksList {
       .then(({ data }) => {
         if (data.items) {
           this.data = [...this.data, ...data.items];
-          console.log(this.data);
           this.startIndex += this.maxResults;
         } else {
           this.loadMore = false;
