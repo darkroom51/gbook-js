@@ -1,2 +1,4 @@
 import '../css/main.scss';
-console.log('Hello World');
+import GoogleBooksList from './GoogleBooksList';
+
+let googleBooksList = new GoogleBooksList();
