@@ -1,7 +1,6 @@
 import { getBooks } from './utils/api';
 import { truncate } from './utils/helpers';
 import { toastr } from './Toastr';
-// import { mockData } from './utils/mockData';
 
 class GoogleBooksList {
 
@@ -19,12 +18,6 @@ class GoogleBooksList {
     document.querySelector('.search__input').addEventListener('keydown', this.handleSearch.bind(this));
     window.addEventListener('scroll', this.handleOnScroll.bind(this));
   }
-
-  // renderWelcome() {
-  //   this.li = document.createElement('li');
-  //   this.li.innerHTML = `<div class="welcome"><h2>It's always worth to read something!</h2><p>Type your book tile and start the adventure!</p></div>`;
-  //   this.list.appendChild(this.li);
-  // }
 
   renderList() {
     this.list.innerHTML = '';
