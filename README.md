@@ -1,6 +1,6 @@
 # gBooks-js
 
-Simple vanilla JavaScript app with Webpack, Bable and SASS support.
+Simple vanilla JavaScript app with Webpack, Babel and SASS support.
 
 ### Installation
 
