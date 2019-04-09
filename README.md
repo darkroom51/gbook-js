@@ -13,7 +13,7 @@ npm install
 ```
 npm start
 ```
-Server will be loaded on port 8080
+App will be loaded on `http://localhost:8080/`
 
 
 ### Build Prod Version
@@ -21,8 +21,8 @@ Server will be loaded on port 8080
 ```
 npm run build
 ```
-Prod files available in /dist folder
+Prod files will be stored in /dist folder
 
 ### Demo
 
-[gbooks-js.surge.sh](gbooks-js.surge.sh)
+[gbooks-js.surge.sh](http://gbooks-js.surge.sh/)
